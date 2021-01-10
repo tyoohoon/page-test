@@ -1,9 +1,21 @@
-<html>
- 
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>เกมดูดวง</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <div id="select" style="display: block;">
+    <script src="scripts.js"></script>
+    <h1 style="text-align: center">เลือกไพ่</h1>
+    <img class="card" src="images/cards.png" onclick="showResult()">
+  </div>
+  <div id="result" style="display: none;">
+    <h1 id="theSen">88</h1>
+    <button onclick="replayFunc()"id="replay">เล่นอีกรอบ</button>
+  </div>
 </body>
- 
 </html>
